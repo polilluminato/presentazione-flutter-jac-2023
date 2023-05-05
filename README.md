@@ -2,6 +2,12 @@
 
 Repository della presentazione su [Flutter](https://flutter.dev/) per la [Fondazione JobsAcademy](https://jac-its.it/).
 
+### Struttura
+
+* [/code](/code/flutter_jac/): Codice dell'applicazione di esempio realizzata durante la parte di demo per mostrare le caratteristiche di Flutter
+* [/docs](/docs/): Appunti in formato Markdown per ripercorrere la demo
+* [/slides](/slides/): Presentazione di introduzione a Flutter, caratteristiche e potenzialità
+
 ## 💎 Contributing
 
 Se hai qualche idea, sentiti libero di inviarmi le tue modifiche nella sezione delle [issue](https://github.com/polilluminato/presentazione-flutter-jac-2023/issues) o con una pull request.
