@@ -1,6 +1,25 @@
-# Flutter Demo
+<div align="center">
+  <h2>Flutter Demo</h2>
+</div>
 
 Codice dell'applicazione di esempio realizzata durante la parte di demo per mostrare le caratteristiche di Flutter.
+
+Per configurare correttamente l'applicazione si deve creare un file chiamato `.env` nella root del progetto in `code/flutter_jac` con questo contenuto:
+
+```bash
+NEWS_API_URL="https://newsapi.org/v2"
+NEWS_API_KEY=<newsapi_org_api_key>
+PEXELS_API_URL="https://api.pexels.com/v1"
+PEXELS_API_KEY=<pexels_org_api_key>
+```
+
+## 🐝 API
+
+* [Free for Developers](https://free-for.dev/#/?id=apis-data-and-ml): elenco di software (SaaS, PaaS, IaaS, ecc.) e altre offerte che hanno livelli gratuiti per gli sviluppatori
+* [News API](https://newsapi.org/): ricerca di notizie sul web con il codice, ottenendo risultati JSON. Gli sviluppatori hanno a disposizione 3.000 query gratuite al mese.
+* [Pexels API](https://www.pexels.com/api/): offrite ai vostri utenti l'accesso alla nostra intera libreria di foto e video senza lasciare la vostra app o il vostro sito web. È gratuita e si integra perfettamente con poche righe di codice. Iniziate e riceverete immediatamente la vostra chiave API unica.
+* [PokéAPI - The RESTful Pokémon API](https://pokeapi.co/): Tutti i dati sui Pokémon di cui avete bisogno in un unico posto, facilmente accessibile attraverso una moderna API RESTful.
+* [IP Geolocation API](https://ip-api.com/)
 
 ## 💎 Contributing
 

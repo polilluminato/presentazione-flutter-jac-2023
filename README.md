@@ -23,6 +23,13 @@ Repository della presentazione su [Flutter](https://flutter.dev/) per la [Fondaz
 * [DartPad](https://www.dartpad.dev/) è uno strumento open source che consente di provare con il linguaggio Dart in qualsiasi browser moderno
 * [Zapp!](https://zapp.run/) ambiente sandbox online gratuito per costruire e condividere applicazioni Dart e Flutter
 
+### 🎥 Video YouTube
+
+* [Corso di Flutter in italiano](https://www.youtube.com/playlist?list=PLRQ3fAbkE3MZcEUKbJEHdxEe63aEzvKAw)
+* [Corso Flutter Web in Italiano per sviluppare app web | Framework cross platform](https://www.youtube.com/watch?v=7lBwVSo1_gg)
+* [Corso Flutter Desktop in Italiano per sviluppare app desktop | Framework cross platform](https://www.youtube.com/watch?v=abitI1uRelw)
+* [Every Flutter Widget Explained!](https://www.youtube.com/watch?v=kj_tldMmu4w)
+
 #### 🧑‍💻 Estensioni per Visual Studio Code
 
 * [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code): supporto per il linguaggio Dart e debugger per Visual Studio Code
