@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_jac/provider/theme_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -21,7 +20,7 @@ class SettingsPage extends ConsumerWidget {
         children: [
           ListTile(
             title: const Text("Enable Dark Mode"),
-            trailing: CupertinoSwitch(
+            trailing: Switch(
               value: ref.watch(isDarkModeProvider),
               onChanged: (value) {
                 ref.read(isDarkModeProvider.notifier).update((state) => value);
