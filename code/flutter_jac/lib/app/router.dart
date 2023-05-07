@@ -18,7 +18,7 @@ GoRouter buildRouter() {
       GoRoute(
         path: '/pokemon/single',
         builder: (context, state) => SinglePokemonPage(
-          pokemon: state.extra! as PokemonItem,
+          pokemonItem: state.extra! as PokemonItem,
         ),
       ),
     ],

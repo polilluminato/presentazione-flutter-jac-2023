@@ -11,6 +11,7 @@ NEWS_API_URL="https://newsapi.org/v2"
 NEWS_API_KEY=<newsapi_org_api_key>
 PEXELS_API_URL="https://api.pexels.com/v1"
 PEXELS_API_KEY=<pexels_org_api_key>
+POKEMON_API_URL="https://pokeapi.co/api/v2"
 ```
 
 ## 🐝 API

@@ -17,4 +17,7 @@ abstract class Env {
 
   @EnviedField(varName: 'PEXELS_API_KEY', obfuscate: true)
   static final pexelsApiKey = _Env.pexelsApiKey;
+
+  @EnviedField(varName: 'POKEMON_API_URL', obfuscate: true)
+  static final pokemonApiUrl = _Env.pokemonApiUrl;
 }
