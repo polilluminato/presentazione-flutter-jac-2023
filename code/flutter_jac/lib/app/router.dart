@@ -1,4 +1,4 @@
-import 'package:flutter_jac/pages/home_page.dart';
+import 'package:flutter_jac/pages/home/home_page.dart';
 import 'package:flutter_jac/pages/settings_page.dart';
 import 'package:go_router/go_router.dart';
 
