@@ -5,9 +5,10 @@ class PokemonItem {
   String? imageLink;
 
   PokemonItem(this.name, this.link) {
-    //Link fatto come https://pokeapi.co/api/v2/pokemon/5/
+    //Link fatto come https://pokeapi.co/api/v2/pokemon/{id}/
     //  vado a prenderne id alla fine
-    id = int.parse(link.substring(link.length - 2, link.length - 1));
+    final splittedLink = link.split('/');
+    id = int.parse(splittedLink[splittedLink.length - 2]);
 
     //I nomi mi arrivano tutti in lowercase, in questo modo metto la prima
     //  lettera maiuscola: bulbasaur -> Bulbasaur
