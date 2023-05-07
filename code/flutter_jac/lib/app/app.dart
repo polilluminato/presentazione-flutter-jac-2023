@@ -17,7 +17,7 @@ class App extends ConsumerWidget {
       routerDelegate: router.routerDelegate,
       theme: ThemeData(
         useMaterial3: true,
-        colorSchemeSeed: Colors.blue,
+        colorSchemeSeed: Colors.grey,
         brightness:
             ref.watch(isDarkModeProvider) ? Brightness.dark : Brightness.light,
       ),
