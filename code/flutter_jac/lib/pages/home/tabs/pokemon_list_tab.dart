@@ -4,8 +4,8 @@ import 'package:flutter_jac/models/pokemon_item.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
-class ListTab extends ConsumerWidget {
-  const ListTab({super.key});
+class PokemonListTab extends ConsumerWidget {
+  const PokemonListTab({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
