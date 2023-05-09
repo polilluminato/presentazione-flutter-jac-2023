@@ -20,10 +20,15 @@ Nella cartella [assets/json/](assets/json/) sono stati salvati dei json di esemp
 
 ## 📱 Screenshots
 
-| Home                                    | Lista (1)                                  | Lista (2)                                  | Griglia                                    | Single Page                                       | Ip Location                                    |
-| --------------------------------------- | ------------------------------------------ | ------------------------------------------ | ------------------------------------------ | ------------------------------------------------- | ---------------------------------------------- |
-| <img src="screenshots/home-light.png"/> | <img src="screenshots/lista-1-light.png"/> | <img src="screenshots/lista-2-light.png"/> | <img src="screenshots/gallery-light.png"/> | <img src="screenshots/single-pokemon-light.png"/> | <img src="screenshots/ip-location-light.png"/> |
-| <img src="screenshots/home-dark.png"/>  | <img src="screenshots/lista-1-dark.png"/>  | <img src="screenshots/lista-2-dark.png"/>  | <img src="screenshots/gallery-dark.png"/>  | <img src="screenshots/single-pokemon-dark.png"/>  | <img src="screenshots/ip-location-dark.png"/>  |
+| Home                                    | Lista (1)                                  | Single Page                                       |
+| --------------------------------------- | ------------------------------------------ | ------------------------------------------------- |
+| <img src="screenshots/home-light.png"/> | <img src="screenshots/lista-1-light.png"/> | <img src="screenshots/single-pokemon-light.png"/> |
+| <img src="screenshots/home-dark.png"/>  | <img src="screenshots/lista-1-dark.png"/>  | <img src="screenshots/single-pokemon-dark.png"/>  |
+
+| Lista (2)                                  | Griglia                                    | Ip Location                                    |
+| ------------------------------------------ | ------------------------------------------ | ---------------------------------------------- |
+| <img src="screenshots/lista-2-light.png"/> | <img src="screenshots/gallery-light.png"/> | <img src="screenshots/ip-location-light.png"/> |
+| <img src="screenshots/lista-2-dark.png"/>  | <img src="screenshots/gallery-dark.png"/>  | <img src="screenshots/ip-location-dark.png"/>  |
 
 ## 🐝 API
 
