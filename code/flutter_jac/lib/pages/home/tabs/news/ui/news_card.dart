@@ -13,13 +13,15 @@ class NewsCard extends StatelessWidget {
   Widget build(BuildContext context) {
     ColorScheme colorScheme = Theme.of(context).colorScheme;
 
-    return ListTile(
-      onTap: () => PlatformUtils.openExternalLink(article.url!),
-      title: Text(article.title!),
-      subtitle: Text(article.author!),
-      leading: Icon(
-        Icons.newspaper_outlined,
-        color: colorScheme.primary,
+    return Card(
+      child: ListTile(
+        onTap: () => PlatformUtils.openExternalLink(article.url!),
+        title: Text(article.title!),
+        subtitle: Text(article.author!),
+        leading: Icon(
+          Icons.newspaper_outlined,
+          color: colorScheme.primary,
+        ),
       ),
     );
   }

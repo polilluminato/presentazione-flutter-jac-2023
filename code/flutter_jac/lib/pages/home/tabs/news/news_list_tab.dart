@@ -16,7 +16,6 @@ class NewsListTab extends ConsumerWidget {
       value: articleList,
       data: (data) {
         return ListView.builder(
-          shrinkWrap: true,
           itemCount: data!.length,
           itemBuilder: (_, int index) {
             return NewsCard(article: data[index]);

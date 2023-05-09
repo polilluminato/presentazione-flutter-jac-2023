@@ -16,14 +16,19 @@ class GalleryTab extends ConsumerWidget {
     return AsyncValueWidget<List<Photo>?>(
       value: photoList,
       data: (data) {
-        return MasonryGridView.count(
-          crossAxisCount: 2,
-          itemCount: data!.length,
-          itemBuilder: (_, index) {
-            return GalleryCard(
-              photo: data[index],
-            );
-          },
+        return Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: MasonryGridView.count(
+            mainAxisSpacing: 8,
+            crossAxisSpacing: 8,
+            crossAxisCount: 2,
+            itemCount: data!.length,
+            itemBuilder: (_, index) {
+              return GalleryCard(
+                photo: data[index],
+              );
+            },
+          ),
         );
       },
     );

@@ -10,19 +10,24 @@ class GalleryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     TextTheme textTheme = Theme.of(context).textTheme;
 
-    return Container(
-      padding: const EdgeInsets.all(16),
+    return Card(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.network(photo.src!.medium!),
-          Text(
-            "${photo.alt}",
-            style: textTheme.labelMedium,
+          Padding(
+            padding: const EdgeInsets.only(top: 8, left: 8, right: 8),
+            child: Text(
+              "${photo.alt}",
+              style: textTheme.labelMedium,
+            ),
           ),
-          Text(
-            "${photo.photographer}",
-            style: textTheme.labelSmall,
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "${photo.photographer}",
+              style: textTheme.labelSmall,
+            ),
           ),
         ],
       ),

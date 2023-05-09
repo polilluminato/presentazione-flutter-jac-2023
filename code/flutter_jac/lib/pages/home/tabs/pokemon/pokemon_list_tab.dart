@@ -31,6 +31,7 @@ class PokemonListTab extends ConsumerWidget {
               );
             },
             leading: CircleAvatar(
+              backgroundColor: Colors.transparent,
               backgroundImage: NetworkImage(myPokemon.imageLink ?? ""),
             ),
             title: Text(myPokemon.name),
