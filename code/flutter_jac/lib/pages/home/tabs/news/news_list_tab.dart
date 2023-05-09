@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_jac/models/article.dart';
-import 'package:flutter_jac/pages/home/tabs/news/news_card.dart';
+import 'package:flutter_jac/pages/home/tabs/news/ui/news_card.dart';
 import 'package:flutter_jac/provider/AsyncValueWidget.dart';
 import 'package:flutter_jac/provider/article_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
