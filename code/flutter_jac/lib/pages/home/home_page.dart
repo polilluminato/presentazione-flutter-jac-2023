@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_jac/models/screen_tab.dart';
-import 'package:flutter_jac/pages/home/tabs/gallery_tab.dart';
+import 'package:flutter_jac/pages/home/tabs/gallery/gallery_tab.dart';
 import 'package:flutter_jac/pages/home/tabs/ip_location_tab.dart';
-import 'package:flutter_jac/pages/home/tabs/news_list_tab.dart';
-import 'package:flutter_jac/pages/home/tabs/pokemon_list_tab.dart';
+import 'package:flutter_jac/pages/home/tabs/news/news_list_tab.dart';
+import 'package:flutter_jac/pages/home/tabs/pokemon/pokemon_list_tab.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
