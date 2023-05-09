@@ -4,6 +4,7 @@ import 'package:flutter_jac/pages/home/tabs/gallery/gallery_tab.dart';
 import 'package:flutter_jac/pages/home/tabs/ip_location_tab.dart';
 import 'package:flutter_jac/pages/home/tabs/news/news_list_tab.dart';
 import 'package:flutter_jac/pages/home/tabs/pokemon/pokemon_list_tab.dart';
+import 'package:flutter_jac/pages/home/tabs/splash_tab.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -11,8 +12,13 @@ final indexTabProvider = StateProvider<int>((ref) => 0);
 
 final List<ScreenTab> tabList = [
   ScreenTab(
+    label: "Home",
+    icon: Icons.home_outlined,
+    content: const SplashTab(),
+  ),
+  ScreenTab(
     label: "Pokemon",
-    icon: Icons.flutter_dash_outlined,
+    icon: Icons.flutter_dash,
     content: const PokemonListTab(),
   ),
   ScreenTab(
