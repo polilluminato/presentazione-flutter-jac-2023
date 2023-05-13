@@ -50,38 +50,36 @@ class _IpLocationTabState extends State<IpLocationTab> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 8, right: 8, bottom: 8),
-                  child: TextFormField(
-                    controller: _ipLocationController,
-                    maxLines: 1,
-                    decoration: const InputDecoration(
-                      border: OutlineInputBorder(),
-                      hintText: "Inserisci un indirizzo IP",
-                    ),
+    return Column(
+      children: [
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.only(left: 8, right: 8, bottom: 8),
+                child: TextFormField(
+                  controller: _ipLocationController,
+                  maxLines: 1,
+                  decoration: const InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Inserisci un indirizzo IP",
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(right: 8),
-                child: ElevatedButton(
-                  onPressed: () => _loadInfoIpLocation(),
-                  child: const Text("Check IP"),
-                ),
-              )
-            ],
-          ),
-          Expanded(child: IpLocationInfo(ipLocation: _ipLocation))
-        ],
-      ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: ElevatedButton(
+                onPressed: () => _loadInfoIpLocation(),
+                child: const Text("Check IP"),
+              ),
+            )
+          ],
+        ),
+        Expanded(child: IpLocationInfo(ipLocation: _ipLocation))
+      ],
     );
   }
 }
