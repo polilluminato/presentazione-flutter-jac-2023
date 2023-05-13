@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_jac/env/env.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_jac/models/article.dart';
 import 'package:http/http.dart' as http;
 
@@ -10,10 +10,10 @@ class NewsRepository {
   Future<List<Article>?> getArticleList() async {
     var response = await http.get(
       Uri.parse(
-          "${Env.newsApiUrl}/top-headlines?country=it&category=technology"),
+          "${dotenv.env['NEWS_API_URL']}/top-headlines?country=it&category=technology"),
       headers: {
         'Content-Type': 'application/json',
-        'X-Api-Key': Env.newsApiKey,
+        'X-Api-Key': dotenv.env['NEWS_API_KEY']!,
       },
     );
 
