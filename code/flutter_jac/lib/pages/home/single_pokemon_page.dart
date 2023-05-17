@@ -1,4 +1,4 @@
-// ignore_for_file: library_prefixes
+// ignore_for_file: library_prefixes, unused_local_variable
 
 import 'package:flutter/material.dart';
 import 'package:flutter_jac/models/pokemon.dart';

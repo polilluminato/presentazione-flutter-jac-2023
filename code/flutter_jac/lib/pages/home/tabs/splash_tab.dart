@@ -11,7 +11,7 @@ class SplashTab extends StatelessWidget {
 
     return Center(
       child: Text(
-        "Jobs Academy App",
+        "Hello World!",
         style: textTheme.headlineMedium,
       ),
     );

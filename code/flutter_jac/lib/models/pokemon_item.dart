@@ -5,6 +5,7 @@ class PokemonItem {
   String? imageLink;
 
   PokemonItem(this.name, this.link) {
+    //Link fatto come https://pokeapi.co/api/v2/pokemon/{id}/
     final splittedLink = link.split('/');
     id = int.parse(splittedLink[splittedLink.length - 2]);
 
