@@ -47,10 +47,13 @@ Aggiungiamo un `Column` per disporre i nostri contenuti uno sotto l'altro
 return Center(
    child: Column(
       children: [
-         Image.asset(
-            "assets/images/splash.png",
-            width: ScreenUtils.getScreenWidth(context) * .7,
-         ),
+         //Image.asset(
+         //   "assets/images/splash.png",
+         //   width: ScreenUtils.getScreenWidth(context) * .7,
+         //),
+         //Image.network(
+         //   "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+         //),
          Padding(
             padding: const EdgeInsets.only(bottom: 24, top: 48),
             child: Text(
@@ -167,7 +170,7 @@ class PokemonRow extends StatelessWidget {
 
 ### Single Pokémon
 
-All'interno di questa pagina possiamo far vedere maggiori informazioni su un singolo Pokémon andando a fare una chiamata HTTP alle API di Pokèmon attraverso il `PokemonRepository` e il suo metodo `getSinglePokemon(int id)` che ci tornerà un oggetto `Pokemon` che possiamo visualizzare all'interno della pagina. Anche in questo caso possiamo rendere la UI più bella in questo modo
+All'interno di questa pagina possiamo far vedere maggiori informazioni su un singolo Pokémon andando a fare una chiamata HTTP alle API di Pokémon attraverso il `PokemonRepository` e il suo metodo `getSinglePokemon(int id)` che ci tornerà un oggetto `Pokemon` che possiamo visualizzare all'interno della pagina. Anche in questo caso possiamo rendere la UI più bella in questo modo
 
 ```dart
 return Column(
@@ -225,7 +228,7 @@ return Column(
 
 ### Bottom Navigation
 
-Per abilitare la navigazione all'interno dell'applicazione è sufficiente importare la tabList che sta nel file `data/tab_list.dart` 
+Per abilitare la navigazione all'interno dell'applicazione è sufficiente importare la tabList che sta nel file `data/tab_list.dart` all'interno del file `pages/home/home_page.dart`
 
 ```dart
 import 'package:flutter_jac/data/tab_list.dart';
@@ -277,6 +280,5 @@ final List<ScreenTab> tabList = [
     content: const IpLocationTab(),
   ),
 ];
-
 ```
 
