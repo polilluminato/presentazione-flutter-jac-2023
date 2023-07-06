@@ -10,4 +10,5 @@ List<PokemonItem> pokemonList = [
   PokemonItem("squirtle", "https://pokeapi.co/api/v2/pokemon/7/"),
   PokemonItem("wartortle", "https://pokeapi.co/api/v2/pokemon/8/"),
   PokemonItem("blastoise", "https://pokeapi.co/api/v2/pokemon/9/"),
+  PokemonItem("mewtwo", "https://pokeapi.co/api/v2/pokemon/150/"),
 ];

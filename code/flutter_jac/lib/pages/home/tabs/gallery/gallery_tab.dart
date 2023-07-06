@@ -20,7 +20,7 @@ class GalleryTab extends ConsumerWidget {
           padding: const EdgeInsets.all(8.0),
           child: MasonryGridView.count(
             mainAxisSpacing: 8,
-            crossAxisSpacing: 8,
+            crossAxisSpacing: 16,
             crossAxisCount: 2,
             itemCount: data!.length,
             itemBuilder: (_, index) {
